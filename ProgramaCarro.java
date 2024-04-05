@@ -1,6 +1,8 @@
 public class ProgramaCarro {
     public static void main(String[] args) {
 
+        Pessoa p = new Pessoa();
+
         Carro uno = new Carro(144);
 
         uno.setMarca("Fiat");
