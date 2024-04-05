@@ -1,7 +1,8 @@
 public class ProgramaCarro {
     public static void main(String[] args) {
 
-        Pessoa p = new Pessoa();
+        Pessoa p = new Pessoa("Pedro");
+        p.setNome("Pedro");
 
         Carro uno = new Carro(144);
 
